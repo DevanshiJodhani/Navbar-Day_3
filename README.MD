@@ -1,5 +1,5 @@
 # 🔍 Navbar
-I designed a navbar as a part of 30daysofHTMLCSS challange in Day 3.
+I designed a navbar as a part of 30daysofHTMLCSS challenge in Day 3.
 
 ## 🎨 Design
 ![Design of navbar](design.png)
