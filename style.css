@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+/* #18181b - NavBar Background Color */
+
+/* #a1a1aa - Text Color */
+
+/* Get Started Button Bg color - #5046e5 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+
+h2 {
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+}
+.main{
+    width: 100%;
+    height: 90px;
+    background-color: #303035;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 450px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #18181b;
+    margin-top: 450px;
+    border-bottom: 1px solid #a1a1a1;
+}
+.company{
+    height: 60px;
+    width: 55px;
+    display: flex;
+    margin: 10px;
+
+}
+.text{
+    display: flex;
+    justify-content: left;
+    margin-left: 65px;
+    margin-top: -53px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #a1a1a1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    margin: -41px;
+}
+.navbar a{
+    color: #a1a1a1;
+    text-decoration: none;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #a1a1a1;
+    padding: 5px;
+    margin-right: 445px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #a1a1a1;
+    margin-right: 160px;
+    margin-top: -22px;
+}
+.box3{
+     display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #a1a1a1;
+    margin-right: -145px;
+    margin-top: -16px;
+}
+.box4{
+     display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #a1a1a1;
+    margin-right: -415px;
+    margin-top: -16px;
+}
+.button{
+    display: flex;
+    justify-content: right;
+    padding-right: 25px;
+}
+.button #btn{
+    width: 130px;
+    height: 50px;
+    font-size: 1em;
+    color: #ffff;
+    background-color: #5046e5;
+    border: 3px solid #5046e5;
+    margin-top: -40px;
+    border-radius: 8px;
+}
+.button #bttn{
+    color: #a1a1a1;
+    font-size: 1.2em;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-top: -40px;
+}
